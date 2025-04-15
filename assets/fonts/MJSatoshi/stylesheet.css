@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'MJ Satoshi';
+    src: url('MJSatoshiBlack.woff2') format('woff2'),
+        url('MJSatoshiBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MJ Satoshi';
+    src: url('MJ.woff2') format('woff2'),
+        url('MJ.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MJ Satoshi';
+    src: url('MJ.woff2') format('woff2'),
+        url('MJ.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MJ Satoshi';
+    src: url('MJSatoshi-Bold.woff2') format('woff2'),
+        url('MJSatoshi-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MJ Satoshi';
+    src: url('MJ.woff2') format('woff2'),
+        url('MJ.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MJ Satoshi';
+    src: url('MJSatoshiLight.woff2') format('woff2'),
+        url('MJSatoshiLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MJ Satoshi';
+    src: url('MJ.woff2') format('woff2'),
+        url('MJ.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MJ Satoshi';
+    src: url('MJSatoshi-Medium.woff2') format('woff2'),
+        url('MJSatoshi-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MJ Satoshi';
+    src: url('MJ.woff2') format('woff2'),
+        url('MJ.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MJ Satoshi';
+    src: url('MJSatoshi-Regular.woff2') format('woff2'),
+        url('MJSatoshi-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

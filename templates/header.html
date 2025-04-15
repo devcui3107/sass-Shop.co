@@ -1,0 +1,80 @@
+<div class="container">
+  <div class="header__inner">
+    <div class="d-flex gapX-16">
+      <!-- Toggle Button -->
+      <button
+        class="header__toggle d-none d-md-flex"
+        aria-label="Toggle Menu"
+        aria-expanded="false"
+      >
+        <img src="./assets/icons/toggle-menu.svg" alt="Menu" />
+      </button>
+
+      <!-- Logo -->
+      <a href="/" class="d-flex">
+        <img src="./assets/images/logo.svg" alt="" />
+      </a>
+    </div>
+
+    <!-- Menu Top -->
+    <nav class="nav nav--pc">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#!" class="nav__link">Shop</a>
+          <img src="./assets/icons/arrow-down.svg" alt="" />
+        </li>
+        <li class="nav__item">
+          <a href="#!" class="nav__link">On Sale</a>
+        </li>
+        <li class="nav__item">
+          <a href="#!" class="nav__link">New Arrivals</a>
+        </li>
+        <li class="nav__item">
+          <a href="#!" class="nav__link">Brands</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Search -->
+    <div class="search d-lg-none">
+      <div class="form__group">
+        <button class="search__btn">
+          <img src="./assets/icons/search.svg" alt="" />
+        </button>
+        <input type="text" placeholder="Search for products..." />
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="header__cta">
+      <!-- Search Mobile -->
+      <button class="search__btn--mobile d-none d-lg-flex">
+        <img src="./assets/icons/search-mobile.svg" alt="" />
+      </button>
+
+      <button class="header__cta-cart">
+        <img src="./assets/icons/cart.svg" alt="" />
+      </button>
+      <button class="header__cta-user">
+        <img src="./assets/icons/user.svg" alt="" />
+      </button>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Slider (Mobile) -->
+    <div class="header__slider d-none d-md-flex">
+      <div class="d-flex mb-md-24">
+        <!-- Logo -->
+        <a href="/" class="d-none d-md-flex header__slider-logo">
+          <img src="./assets/images/logo.svg" alt="" />
+        </a>
+
+        <button class="header__slider-close" aria-label="Close Menu">
+          <img src="./assets/icons/close.svg" alt="Close" />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
