@@ -1,0 +1,948 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+
+    <!-- FONT BASE -->
+    <link rel="stylesheet" href="./assets/fonts/MJSatoshi/stylesheet.css" />
+
+    <!-- FONT EXTRA -->
+    <link rel="stylesheet" href="./assets/fonts/IntegralCF/stylesheet.css" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!-- SCRIPT LOAD -->
+    <script src="./assets/js/script.js"></script>
+
+    <title>SHOP.CO | Category</title>
+  </head>
+  <body>
+    <!-- PROMO NOTIFY-->
+    <div class="header__promo">
+      <div class="container">
+        <div class="header__promo-inner">
+          <span>Sign up and get 20% off to your first order. </span>
+          <a href="#!" class="header__promo--link">Sign Up Now</a>
+          <button class="header__promo-close d-sm-none">
+            <img src="./assets/icons/close.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- HEADER -->
+    <div id="header" class="header"></div>
+
+    <!-- MAIN -->
+    <main>
+      <!-- BREADCRUMB -->
+      <section class="mt-25 mt-md-20">
+        <div class="container">
+          <nav class="breadcrumb breadcrumb--chevron">
+            <span class="breadcrumb__item">
+              <a href="./" class="breadcrumb__link">Home</a>
+            </span>
+            <span class="breadcrumb__item breadcrumb__item--active">
+              Casual
+            </span>
+          </nav>
+        </div>
+      </section>
+
+      <!-- SHOW PRODUCT -->
+      <section class="mt-24 mt-sm-12">
+        <div class="container">
+          <div class="show-prod__inner">
+            <div class="row">
+              <div class="col-3 col-xl-4 col-lg-12">
+                <!-- Filter Overlay -->
+                <div class="filter__overlay"></div>
+
+                <!-- Filters -->
+                <div id="filter-product" class="filter">
+                  <!-- Heading -->
+                  <div class="d-flex justify-space-between">
+                    <h3 class="filter-title">Filters</h3>
+                    <img
+                      src="./assets/icons/filter.svg"
+                      alt=""
+                      class="filter__icon d-lg-none"
+                    />
+                    <img
+                      id="filter-close"
+                      src="./assets/icons/close-filter.svg"
+                      alt=""
+                      class="d-none d-lg-flex"
+                    />
+                  </div>
+
+                  <!-- Separate -->
+                  <div class="separate my-24"></div>
+
+                  <!-- Body -->
+                  <ul class="filter__list">
+                    <!-- Item -->
+                    <li
+                      class="filter__item d-flex align-center justify-space-between"
+                    >
+                      <span class="desc">T-shirts</span>
+                      <button class="filter__icon-toggle">
+                        <img
+                          src="./assets/icons/arrow-filter-small.svg"
+                          alt=""
+                        />
+                      </button>
+                    </li>
+
+                    <!-- Item -->
+                    <li
+                      class="filter__item d-flex align-center justify-space-between"
+                    >
+                      <span class="desc">Shorts</span>
+                      <button class="filter__icon-toggle">
+                        <img
+                          src="./assets/icons/arrow-filter-small.svg"
+                          alt=""
+                        />
+                      </button>
+                    </li>
+
+                    <!-- Item -->
+                    <li
+                      class="filter__item d-flex align-center justify-space-between"
+                    >
+                      <span class="desc">Shirts</span>
+                      <button class="filter__icon-toggle">
+                        <img
+                          src="./assets/icons/arrow-filter-small.svg"
+                          alt=""
+                        />
+                      </button>
+                    </li>
+
+                    <!-- Item -->
+                    <li
+                      class="filter__item d-flex align-center justify-space-between"
+                    >
+                      <span class="desc">Hoodie</span>
+                      <button class="filter__icon-toggle">
+                        <img
+                          src="./assets/icons/arrow-filter-small.svg"
+                          alt=""
+                        />
+                      </button>
+                    </li>
+
+                    <!-- Item -->
+                    <li
+                      class="filter__item d-flex align-center justify-space-between"
+                    >
+                      <span class="desc">Jeans</span>
+                      <button class="filter__icon-toggle">
+                        <img
+                          src="./assets/icons/arrow-filter-small.svg"
+                          alt=""
+                        />
+                      </button>
+                    </li>
+                  </ul>
+
+                  <!-- Separate -->
+                  <div class="separate my-24"></div>
+
+                  <div class="d-flex justify-space-between">
+                    <span class="filter-title">Price</span>
+                    <img src="./assets/icons/arrow-filter-big.svg" alt="" />
+                  </div>
+
+                  <!-- Input Range -->
+                  <div class="range-slider">
+                    <div class="range-slider__label" id="min-tooltip">$0</div>
+                    <div class="range-slider__label" id="max-tooltip">$500</div>
+
+                    <input
+                      type="range"
+                      min="0"
+                      max="500"
+                      value="0"
+                      id="min-price"
+                      class="range-slider__input"
+                    />
+                    <input
+                      type="range"
+                      min="0"
+                      max="500"
+                      value="500"
+                      id="max-price"
+                      class="range-slider__input"
+                    />
+                    <div class="range-slider__track"></div>
+                  </div>
+
+                  <!-- Separate -->
+                  <div class="separate my-24"></div>
+
+                  <!-- Select Color -->
+                  <div class="d-flex justify-space-between">
+                    <span class="filter-title">Colors</span>
+                    <img src="./assets/icons/arrow-filter-big.svg" alt="" />
+                  </div>
+
+                  <div class="filter__content gap-16 mt-20">
+                    <!-- Circle check -->
+                    <div class="filter__circle green p-0"></div>
+                    <!-- Circle -->
+                    <div class="filter__circle red p-0"></div>
+                    <!-- Circle -->
+                    <div class="filter__circle yellow p-0"></div>
+                    <!-- Circle -->
+                    <div class="filter__circle orange p-0"></div>
+                    <!-- Circle -->
+                    <div class="filter__circle blueBright p-0"></div>
+                    <!-- Circle -->
+                    <div class="filter__circle blueDark p-0">
+                      <img
+                        src="./assets/icons/check.svg"
+                        alt=""
+                        class="filter__circle__icon"
+                      />
+                    </div>
+                    <!-- Circle -->
+                    <div class="filter__circle purple p-0"></div>
+                    <!-- Circle -->
+                    <div class="filter__circle pink p-0"></div>
+                    <!-- Circle -->
+                    <div class="filter__circle white p-0"></div>
+                    <!-- Circle -->
+                    <div class="filter__circle black p-0"></div>
+                  </div>
+
+                  <!-- Separate -->
+                  <div class="separate my-24"></div>
+
+                  <!-- Select Size -->
+                  <div class="d-flex justify-space-between">
+                    <span class="filter-title">Size</span>
+                    <img src="./assets/icons/arrow-filter-big.svg" alt="" />
+                  </div>
+
+                  <div class="filter__content gap-8 mt-20">
+                    <button class="filter__size-btn">XX-Small</button>
+                    <button class="filter__size-btn">X-Small</button>
+                    <button class="filter__size-btn">Small</button>
+                    <button class="filter__size-btn">Medium</button>
+                    <button class="filter__size-btn active">Large</button>
+                    <button class="filter__size-btn">X-Large</button>
+                    <button class="filter__size-btn">XX-Large</button>
+                    <button class="filter__size-btn">3X-Large</button>
+                    <button class="filter__size-btn">4X-Large</button>
+                  </div>
+
+                  <!-- Separate -->
+                  <div class="separate my-24"></div>
+
+                  <!-- Select Style -->
+                  <div class="d-flex justify-space-between mb-20">
+                    <span class="filter-title">Dress Style</span>
+                    <img src="./assets/icons/arrow-filter-big.svg" alt="" />
+                  </div>
+
+                  <!-- Body -->
+                  <ul class="filter__list">
+                    <!-- Item -->
+                    <li
+                      class="filter__item d-flex align-center justify-space-between"
+                    >
+                      <span class="desc">Casual</span>
+                      <button class="filter__icon-toggle">
+                        <img
+                          src="./assets/icons/arrow-filter-small.svg"
+                          alt=""
+                        />
+                      </button>
+                    </li>
+
+                    <!-- Item -->
+                    <li
+                      class="filter__item d-flex align-center justify-space-between"
+                    >
+                      <span class="desc">Formal</span>
+                      <button class="filter__icon-toggle">
+                        <img
+                          src="./assets/icons/arrow-filter-small.svg"
+                          alt=""
+                        />
+                      </button>
+                    </li>
+
+                    <!-- Item -->
+                    <li
+                      class="filter__item d-flex align-center justify-space-between"
+                    >
+                      <span class="desc">Party</span>
+                      <button class="filter__icon-toggle">
+                        <img
+                          src="./assets/icons/arrow-filter-small.svg"
+                          alt=""
+                        />
+                      </button>
+                    </li>
+
+                    <!-- Item -->
+                    <li
+                      class="filter__item d-flex align-center justify-space-between"
+                    >
+                      <span class="desc">Gym</span>
+                      <button class="filter__icon-toggle">
+                        <img
+                          src="./assets/icons/arrow-filter-small.svg"
+                          alt=""
+                        />
+                      </button>
+                    </li>
+                  </ul>
+
+                  <!-- Submit -->
+                  <button class="btn btn--primary btn--full-base mt-24">
+                    Apply Filter
+                  </button>
+                </div>
+              </div>
+              <div class="col-9 col-xl-8 col-lg-12">
+                <div class="show-prod__main">
+                  <!-- Heading -->
+                  <div
+                    class="d-flex flex-sm-wrap align-end justify-space-between mb-25"
+                  >
+                    <h2 class="cate-title">Casual</h2>
+                    <div class="category__option">
+                      <p class="desc">Showing 1-10 of 100 Products</p>
+                      <div class="sort d-md-none">
+                        <label class="desc" for="sort-select">Sort by:</label>
+                        <div class="sort__wrap">
+                          <select id="sort-select" class="sort__select">
+                            <option class="sort__option" value="default">
+                              Most Popular
+                              <img src="./assets/icons/arrow-down.svg" alt="" />
+                            </option>
+                            <option class="sort__option" value="name-asc">
+                              Name A → Z
+                            </option>
+                            <option class="sort__option" value="name-desc">
+                              Name Z → A
+                            </option>
+                            <option class="sort__option" value="price-asc">
+                              Price Asc
+                            </option>
+                            <option class="sort__option" value="price-desc">
+                              Price Desc
+                            </option>
+                          </select>
+                          <img
+                            src="./assets/icons/arrow-down.svg"
+                            alt="icon"
+                            class="sort__icon"
+                          />
+                        </div>
+                      </div>
+                      <!-- Icon Filter -->
+                      <button
+                        id="show-filter-mobile"
+                        class="category__icon-filter-mobile d-none d-lg-flex"
+                      >
+                        <img src="./assets/icons/filter.svg" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="mx-lg--15 mx-sm-0">
+                    <div class="row row-cols-3 row-cols-xl-2 gy-3 gx-sm-1">
+                      <!-- Item -->
+                      <div class="col">
+                        <div class="card">
+                          <a href="./prod-detail.html" class="card__img-wrap">
+                            <img
+                              src="./assets/images/prod-1.png"
+                              alt=""
+                              class="card__img"
+                            />
+                          </a>
+                          <a href="./prod-detail.html">
+                            <h3 class="card__title card-title mt-16">
+                              T-shirt with tape details
+                            </h3></a
+                          >
+                          <div class="card__row">
+                            <!-- Rating -->
+                            <div class="rating">
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--half"
+                              ></span>
+                            </div>
+                            <!-- Number details -->
+                            <div>
+                              <span class="heading-5">4.5/</span
+                              ><span class="heading-5-grey">5</span>
+                            </div>
+                          </div>
+                          <!-- Price -->
+                          <div
+                            class="d-flex align-center gapX-10 gapX-md-5 mt-8"
+                          >
+                            <span class="card-price">$120</span>
+                            <span class="card-price-old">$250</span>
+                            <div class="badge badge--sale">50%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Item -->
+                      <div class="col">
+                        <div class="card">
+                          <a href="./prod-detail.html" class="card__img-wrap">
+                            <img
+                              src="./assets/images/prod-2.png"
+                              alt=""
+                              class="card__img"
+                            />
+                          </a>
+                          <a href="./prod-detail.html">
+                            <h3 class="card__title card-title mt-16">
+                              T-shirt with tape details
+                            </h3></a
+                          >
+                          <div class="card__row">
+                            <!-- Rating -->
+                            <div class="rating">
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--half"
+                              ></span>
+                            </div>
+                            <!-- Number details -->
+                            <div>
+                              <span class="heading-5">4.5/</span
+                              ><span class="heading-5-grey">5</span>
+                            </div>
+                          </div>
+                          <!-- Price -->
+                          <div
+                            class="d-flex align-center gapX-10 gapX-md-5 mt-8"
+                          >
+                            <span class="card-price">$120</span>
+                            <span class="card-price-old">$250</span>
+                            <div class="badge badge--sale">50%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Item -->
+                      <div class="col">
+                        <div class="card">
+                          <a href="./prod-detail.html" class="card__img-wrap">
+                            <img
+                              src="./assets/images/prod-3.png"
+                              alt=""
+                              class="card__img"
+                            />
+                          </a>
+                          <a href="./prod-detail.html">
+                            <h3 class="card__title card-title mt-16">
+                              T-shirt with tape details
+                            </h3></a
+                          >
+                          <div class="card__row">
+                            <!-- Rating -->
+                            <div class="rating">
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--half"
+                              ></span>
+                            </div>
+                            <!-- Number details -->
+                            <div>
+                              <span class="heading-5">4.5/</span
+                              ><span class="heading-5-grey">5</span>
+                            </div>
+                          </div>
+                          <!-- Price -->
+                          <div
+                            class="d-flex align-center gapX-10 gapX-md-5 mt-8"
+                          >
+                            <span class="card-price">$120</span>
+                            <span class="card-price-old">$250</span>
+                            <div class="badge badge--sale">50%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Item -->
+                      <div class="col">
+                        <div class="card">
+                          <a href="./prod-detail.html" class="card__img-wrap">
+                            <img
+                              src="./assets/images/prod-4.png"
+                              alt=""
+                              class="card__img"
+                            />
+                          </a>
+                          <a href="./prod-detail.html">
+                            <h3 class="card__title card-title mt-16">
+                              T-shirt with tape details
+                            </h3></a
+                          >
+                          <div class="card__row">
+                            <!-- Rating -->
+                            <div class="rating">
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--half"
+                              ></span>
+                            </div>
+                            <!-- Number details -->
+                            <div>
+                              <span class="heading-5">4.5/</span
+                              ><span class="heading-5-grey">5</span>
+                            </div>
+                          </div>
+                          <!-- Price -->
+                          <div
+                            class="d-flex align-center gapX-10 gapX-md-5 mt-8"
+                          >
+                            <span class="card-price">$120</span>
+                            <span class="card-price-old">$250</span>
+                            <div class="badge badge--sale">50%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Item -->
+                      <div class="col">
+                        <div class="card">
+                          <a href="./prod-detail.html" class="card__img-wrap">
+                            <img
+                              src="./assets/images/prod-5.png"
+                              alt=""
+                              class="card__img"
+                            />
+                          </a>
+                          <a href="./prod-detail.html">
+                            <h3 class="card__title card-title mt-16">
+                              T-shirt with tape details
+                            </h3></a
+                          >
+                          <div class="card__row">
+                            <!-- Rating -->
+                            <div class="rating">
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--half"
+                              ></span>
+                            </div>
+                            <!-- Number details -->
+                            <div>
+                              <span class="heading-5">4.5/</span
+                              ><span class="heading-5-grey">5</span>
+                            </div>
+                          </div>
+                          <!-- Price -->
+                          <div
+                            class="d-flex align-center gapX-10 gapX-md-5 mt-8"
+                          >
+                            <span class="card-price">$120</span>
+                            <span class="card-price-old">$250</span>
+                            <div class="badge badge--sale">50%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Item -->
+                      <div class="col">
+                        <div class="card">
+                          <a href="./prod-detail.html" class="card__img-wrap">
+                            <img
+                              src="./assets/images/prod-6.png"
+                              alt=""
+                              class="card__img"
+                            />
+                          </a>
+                          <a href="./prod-detail.html">
+                            <h3 class="card__title card-title mt-16">
+                              T-shirt with tape details
+                            </h3></a
+                          >
+                          <div class="card__row">
+                            <!-- Rating -->
+                            <div class="rating">
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--half"
+                              ></span>
+                            </div>
+                            <!-- Number details -->
+                            <div>
+                              <span class="heading-5">4.5/</span
+                              ><span class="heading-5-grey">5</span>
+                            </div>
+                          </div>
+                          <!-- Price -->
+                          <div
+                            class="d-flex align-center gapX-10 gapX-md-5 mt-8"
+                          >
+                            <span class="card-price">$120</span>
+                            <span class="card-price-old">$250</span>
+                            <div class="badge badge--sale">50%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Item -->
+                      <div class="col">
+                        <div class="card">
+                          <a href="./prod-detail.html" class="card__img-wrap">
+                            <img
+                              src="./assets/images/prod-7.png"
+                              alt=""
+                              class="card__img"
+                            />
+                          </a>
+                          <a href="./prod-detail.html">
+                            <h3 class="card__title card-title mt-16">
+                              T-shirt with tape details
+                            </h3></a
+                          >
+                          <div class="card__row">
+                            <!-- Rating -->
+                            <div class="rating">
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--half"
+                              ></span>
+                            </div>
+                            <!-- Number details -->
+                            <div>
+                              <span class="heading-5">4.5/</span
+                              ><span class="heading-5-grey">5</span>
+                            </div>
+                          </div>
+                          <!-- Price -->
+                          <div
+                            class="d-flex align-center gapX-10 gapX-md-5 mt-8"
+                          >
+                            <span class="card-price">$120</span>
+                            <span class="card-price-old">$250</span>
+                            <div class="badge badge--sale">50%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Item -->
+                      <div class="col">
+                        <div class="card">
+                          <a href="./prod-detail.html" class="card__img-wrap">
+                            <img
+                              src="./assets/images/prod-8.png"
+                              alt=""
+                              class="card__img"
+                            />
+                          </a>
+                          <a href="./prod-detail.html">
+                            <h3 class="card__title card-title mt-16">
+                              T-shirt with tape details
+                            </h3></a
+                          >
+                          <div class="card__row">
+                            <!-- Rating -->
+                            <div class="rating">
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--half"
+                              ></span>
+                            </div>
+                            <!-- Number details -->
+                            <div>
+                              <span class="heading-5">4.5/</span
+                              ><span class="heading-5-grey">5</span>
+                            </div>
+                          </div>
+                          <!-- Price -->
+                          <div
+                            class="d-flex align-center gapX-10 gapX-md-5 mt-8"
+                          >
+                            <span class="card-price">$120</span>
+                            <span class="card-price-old">$250</span>
+                            <div class="badge badge--sale">50%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Item -->
+                      <div class="col">
+                        <div class="card">
+                          <a href="./prod-detail.html" class="card__img-wrap">
+                            <img
+                              src="./assets/images/prod-9.png"
+                              alt=""
+                              class="card__img"
+                            />
+                          </a>
+                          <a href="./prod-detail.html">
+                            <h3 class="card__title card-title mt-16">
+                              T-shirt with tape details
+                            </h3></a
+                          >
+                          <div class="card__row">
+                            <!-- Rating -->
+                            <div class="rating">
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--full"
+                              ></span>
+                              <span
+                                class="rating__star rating__star--half"
+                              ></span>
+                            </div>
+                            <!-- Number details -->
+                            <div>
+                              <span class="heading-5">4.5/</span
+                              ><span class="heading-5-grey">5</span>
+                            </div>
+                          </div>
+                          <!-- Price -->
+                          <div
+                            class="d-flex align-center gapX-10 gapX-md-5 mt-8"
+                          >
+                            <span class="card-price">$120</span>
+                            <span class="card-price-old">$250</span>
+                            <div class="badge badge--sale">50%</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Separate -->
+                <div class="separate mt-32 mb-20"></div>
+
+                <!-- Pagination -->
+                <ul class="pagination__list">
+                  <li class="pagination__item-ctrl mr-auto">
+                    <a href="#!">
+                      <div aria-hidden="true" class="pagination__wrap-ctrl">
+                        <img
+                          src="./assets/icons/prev.svg"
+                          alt=""
+                          class="pagination__wrap-icon"
+                        />
+                        <span class="heading-5-500 d-sm-none">Previous</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="pagination__item active">
+                    <a href="#!" class="pagination__link">1</a>
+                  </li>
+                  <li class="pagination__item pagination__item--active">
+                    <a href="#!" class="pagination__link">2</a>
+                  </li>
+                  <li class="pagination__item d-sm-none">
+                    <a href="#!" class="pagination__link">3</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#!" class="pagination__link">...</a>
+                  </li>
+                  <li class="pagination__item d-sm-none">
+                    <a href="#!" class="pagination__link">8</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#!" class="pagination__link">9</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#!" class="pagination__link">10</a>
+                  </li>
+                  <li class="pagination__item-ctrl ml-auto">
+                    <a href="#!">
+                      <div aria-hidden="true" class="pagination__wrap-ctrl">
+                        <span class="heading-5-500 d-sm-none">Next</span>
+                        <img
+                          src="./assets/icons/next.svg"
+                          alt=""
+                          class="pagination__wrap-icon"
+                        />
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subscribe -->
+      <section class="sub mt-80 mt-md-50">
+        <div class="container">
+          <div class="sub__inner mb--90 mb-md--125">
+            <div class="row gy-md-3 gy-sm-2">
+              <div class="col-6 col-md-12">
+                <h2 class="heading-2-white">
+                  STAY UPTO DATE ABOUT OUR LATEST OFFERS
+                </h2>
+              </div>
+              <div class="col-4 col-lg-6 col-md-12 offset-2 offset-lg-0">
+                <div class="form">
+                  <div class="form__group bg-white">
+                    <label for="sub-email" class="form__label">
+                      <img src="./assets/icons/email.svg" alt="" />
+                    </label>
+                    <input
+                      type="text"
+                      id="sub-email"
+                      placeholder="Enter your email address"
+                    />
+                  </div>
+                  <button class="btn btn--secondary">
+                    Subscribe to Newsletter
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <div class="footer" id="footer"></div>
+
+    <!-- Xử lý load Template -->
+    <script>
+      load("#header", "./templates/header.html");
+    </script>
+    <script>
+      load("#footer", "./templates/footer.html");
+    </script>
+
+    <!-- JS cho Slider -->
+    <script type="module" src="./assets/js/toggle-menu.js"></script>
+
+    <!-- Range Filter -->
+    <script type="module" src="./assets/js/range-filter.js"></script>
+
+    <!-- Show Filter -->
+    <script type="module" src="./assets/js/show-filter.js"></script>
+  </body>
+</html>
